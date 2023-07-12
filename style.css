@@ -1,0 +1,356 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(louis-hansel-u13IpYtZ9I8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.navbar {
+    height: 70px;
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    display: flex;
+    color: black;
+}
+
+.navbar ul {
+    text-align: right;
+    flex: 1;
+}
+
+.navbar img {
+    max-width: 220px;
+    height: 100px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.navbar ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+.navbar ul li a:hover {
+    color: black;
+}
+
+.btn {
+    margin-left: 13%;
+    border-radius: 100px;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background-color: orangered;
+}
+
+.head {
+    text-align: center;
+    color: white;
+    padding: 15%;
+    height: 40px;
+}
+
+.head img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.head h1 {
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    font-size: 50px;
+}
+
+.head h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin: 0;
+}
+
+.head p {
+    margin: 0;
+    font-size: medium;
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 700;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.head .btn {
+    margin: 30px;
+}
+
+.heading {
+    background-color: orangered;
+    color: white;
+    font-family: 'poppins', 'sans-serif';
+    text-align: center;
+    margin: 0;
+    height: 100px;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.menu {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.fooditems {
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background-color: orangered;
+}
+
+.fooditems img {
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.subdetails {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.bt {
+    margin-left: 35%;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.bt:hover {
+    color: white;
+    background-color: black;
+}
+
+hr {
+    margin-top: 2%;
+    width: 50%;
+}
+
+.about {
+    display: flex;
+    margin-top: 5%;
+}
+
+.left {
+    width: 100%;
+    margin-left: 10%;
+}
+
+.left img {
+    border-radius: 15px;
+}
+
+.right {
+    text-align: center;
+    padding: 10px;
+    margin-right: 8%;
+    margin-top: 1%;
+}
+
+.right h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding-bottom: 2%;
+}
+
+.right h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+
+.right h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+.right p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding-bottom: 1%;
+}
+
+
+#but {
+    margin-left: 60%;
+    border: none;
+}
+
+.heade {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(nicolas-hoizey-yBNIf_ny6Ro-unsplash.jpg);
+    background-color: transparent;
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cont {
+    justify-items: center;
+    align-items: center;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+
+}
+
+.cont h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    justify-items: center;
+    align-items: center;
+    margin-left: 45%;
+}
+
+.para {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    align-items: center;
+    margin-left: 32%;
+
+}
+
+.over {
+    display: flex;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    gap: 70px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 21%;
+
+}
+
+.first .icon {
+    margin-left: 80px;
+}
+
+.second .icon {
+    margin-left: 60px;
+}
+
+.third .icon {
+    margin-left: 80px;
+}
+
+.first {
+    box-shadow: 0 0 15px white;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.second {
+    box-shadow: 0 0 15px white;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    padding: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.third {
+    box-shadow: 0 0 15px white;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.first:hover {
+    background-color: orangered;
+    color: black;
+}
+
+.second:hover {
+    background-color: orangered;
+    color: black;
+}
+
+.third:hover {
+    background-color: orangered;
+    color: black;
+}
+
+.address {
+    margin-left: 40px;
+}
+
+.Phone {
+    margin-left: 20px;
+}
+
+.Email {
+    margin-left: 60px;
+}
